@@ -3,7 +3,7 @@ import "./style.scss";
 
 function Header() {
     return (
-        <header className="header-new">
+        <header className="header">
             <h1 className="header-title">🪄 
                 <img src={magicImg} alt="" className="header-image" />
                  Книжный шторм</h1>
