@@ -8,8 +8,6 @@ function Header() {
                 <img src={magicImg} alt="" className="header-image" />
                  Книжный шторм</h1>
             <p>Следите за своим читательским прогрессом</p>
-           
-    
         </header>
     );
 }
