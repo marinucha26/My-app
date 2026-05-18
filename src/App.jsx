@@ -1,14 +1,11 @@
-import Header from './components/Header/Header';
-import Stats from './components/Stats/Stats';
+import { RouterProvider } from 'react-router-dom';
 import "./style.scss" 
+import { router } from './router/router';
+
 
 function App() {
   return (
-    <div className='app'>
-      <Header />
-      <Stats />
-    
-    </div>
+    <RouterProvider router={router} />
   );
 }
 
